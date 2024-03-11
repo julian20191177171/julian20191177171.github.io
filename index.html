@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Aventura Mítica</h1>
+    <div id="game-container">
+        <button id="start-btn" onclick="startAdventure()">Empezar</button>
+        <button id="left-btn" class="hidden" onclick="choosePath('left')">Ir a la izquierda</button>
+        <button id="straight-btn" class="hidden" onclick="choosePath('straight')">Ir recto</button>
+        <button id="right-btn" class="hidden" onclick="choosePath('right')">Ir a la derecha</button>
+    </div>
+    <div id="story"></div>
+    <div id="image-container"></div>
+
+  <audio controls>
+      <source src="mi_audio.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

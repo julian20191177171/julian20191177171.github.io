@@ -1,0 +1,82 @@
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+/*Establece estilos para los encabezados de nivel 1 */
+h1 {
+  margin-top: 20px;/*Define un margen superior*/
+  color: #333;
+}
+/*Establece estilos para un contenedor con el ID "game-container".*/
+#game-container {
+  margin-top: 50px;
+}
+
+#image-container {
+  margin-top: 20px;
+}
+/*Establece estilos para todos los botones en la página.*/
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+/*Define los estilos cuando el cursor está sobre un botón.*/
+button:hover {
+  background-color: #45a049; /* Darker Green */
+}
+/*Define los estilos cuando un botón está siendo activado.*/
+button:active {
+  background-color: #3e8e41;
+}
+/*Define los estilos cuando un botón obtiene el foco.
+
+Elimina el contorno predeterminado alrededor del botón.*/
+button:focus {
+  outline: none;
+}
+/*stablece estilos específicos para el botón con el ID "start-btn".*/
+#start-btn {
+  background-color: #007bff; /* Blue */
+}
+/*Establece estilos para un elemento con el ID "story", probablemente un contenedor para el texto de la historia.*/
+#story {
+  margin-top: 20px;
+  color: #333;
+  font-size: 18px;
+}
+/* Establece estilos específicos para las imágenes dentro del contenedor con el ID "image-container".*/
+#image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;/*bordes redondeados a las imágenes.*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/*Agrega una sombra ligera a las imágenes.*/
+}
+/*Establece estilos para los elementos de audio en la página.*/
+audio {
+  margin-top: 20px;
+}
+/*Elimina el contorno predeterminado alrededor del elemento de audio*/
+audio:focus {
+  outline: none;
+}
